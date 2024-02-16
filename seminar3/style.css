@@ -1,0 +1,26 @@
+html,
+body {}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.input__text {
+    margin: 10px;
+}
+
+.form__submit-btn {
+    margin: 10px;
+}
+
+.delete-button {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid red;
+    outline: none;
+    transition: 1s ease-in-out;
+}
